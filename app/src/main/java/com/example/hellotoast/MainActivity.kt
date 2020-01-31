@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     fun showToast(view: View) {
 
-        val toast:Toast = Toast.makeText(this,R.string.toast_message, Toast.LENGTH_SHORT)
+        val toast:Toast = Toast.makeText(this,R.string.toast_mess, Toast.LENGTH_SHORT)
         toast.show()
 
     }
